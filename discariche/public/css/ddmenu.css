@@ -1,0 +1,81 @@
+ul.tabs
+{
+    display: table;
+    margin: 0px 5px 0px 5px;
+    padding: 0;
+    list-style: none;
+    position: relative;
+}
+
+ul.tabs li
+{
+    margin: 0px 5px 0px 5px;
+    padding: 0;
+    list-style: none;
+    display: table-cell;
+    float: left;
+    position: relative;
+}
+
+ul.tabs a
+{
+    position: relative;
+    display: block;
+    text-decoration: underline;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+ul.tabs a:hover
+{
+    text-decoration: underline;
+    color: #ff8a00;
+    font-weight: bold;
+}
+
+
+/* dropdowns
+ * *************************/
+
+ul.dropdown
+{
+    margin: 0px;
+    padding: 10px 0px 10px 0px;
+    display: block;
+    position: absolute;
+    z-index: 999;
+    top: 100%;
+    width: 170px;
+    display: none;
+    left: 0;
+    background-color: rgba(0,0,0,0.75);
+}
+
+ul.dropdown ul.dropdown
+{
+    top: 0;
+    left: 95%;
+}
+
+ul.dropdown li
+{
+    margin: 0;
+    padding: 0;
+    float: none;
+    position: relative;
+    list-style: none;
+    display: block;
+    margin: 5px 0px 5px 7px;
+}
+
+ul.dropdown li a
+{
+    display: block;
+    color: red;
+}
+
+ul.dropdown li a:hover
+{
+    display: block;
+    color: #ff8a00;
+}

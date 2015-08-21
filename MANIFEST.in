@@ -1,0 +1,3 @@
+include discariche/config/deployment.ini_tmpl
+recursive-include discariche/public *
+recursive-include discariche/templates *

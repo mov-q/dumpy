@@ -1,0 +1,461 @@
+label.error {
+    color: red;
+    font-weight: bold;
+    float: none;
+    padding-left: .6em;
+}
+
+input.error, checkbox.error, radio.error, select.error {
+    background-color: yellow;
+    border-color: red;
+    border-style: solid;
+}
+
+body{
+    padding: 20px;
+    background: #707883;
+    color: #222;
+    text-align: center;
+    font: 85% "Trebuchet MS",Arial,sans-serif;
+}
+h1,h2,p{
+    margin: 0;
+    padding: 0 10px;
+    font-weight:normal;
+}
+    
+p{
+    padding: 0 10px 15px
+}
+
+h1{
+    font-size: 250%;
+    color: #FFF;
+    letter-spacing: 1px
+}
+    
+h2{
+    font-size: 200%;
+    line-height:1;
+    color:#002455 
+}
+
+div#container{
+    width: 1000px !important; 
+    width /**/: 1010px;
+    margin: 0 auto;
+    padding:5px;
+    text-align:left;
+    background:#FFF
+}
+
+div#navheader{
+    background: #000000;
+    padding: 10px;
+    text-align:center
+}
+
+
+div#content{
+    clear: both;
+    padding:10px 0;
+    margin:5px 0;
+    background: #ffffff;
+}
+
+/*
+div#nav{
+    float:right;
+    width:145px;
+    padding:10px 0;
+    margin:5px 0;
+    background: #FFD154
+}
+
+div#nav h2{
+    font-size: 120%;
+    color: #9E4A24
+}
+
+div#nav a.pagelinks {
+    text-decoration: none;
+    font-weight: bold;
+    color: #8b8878;
+    margin-left: 2px;
+}
+
+div#nav a.pagelinks:hover {
+    color: #000000;
+}
+
+div#nav .rightbar-title {
+    color: #000000;
+    font-weight: bold;
+    margin-left: 2px;
+    margin-bottom: 3px;
+    font-size: 18px;
+}
+
+*/
+
+div#footer{
+    clear:both;
+    width:1000px;
+    background: #f7b64a;
+    padding:5px 0;
+    text-align:center
+}
+
+.genericform {
+    margin-top: 10px;
+}
+
+.genericform a{
+    text-decoration: none;    
+}
+
+.genericform a img {
+    border: 0;
+    text-decoration: none;
+}
+
+
+.suggestionsBox {
+	position: absolute;
+    z-index: 1000;
+	left: 150px;
+	margin: 0px 0px 0px 0px;
+	width: 500px;
+	background-color: #212427;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border: 2px solid #000;	
+	color: #fff;
+    text-align: left;
+}
+
+.suggestionList {
+	margin: 0px;
+	padding: 0px;
+}
+
+.suggestionList li {
+	margin: 0px 0px 3px 0px;
+	padding: 3px;
+	cursor: pointer;
+    list-style: none;
+}
+
+.suggestionList li:hover {
+	background-color: #659CD8;
+}
+
+.suggestionList li.itemover {
+	background-color: #659CD8;
+}
+
+label{
+    float: left;
+    width: 240px;
+    font-weight: bold;
+    margin: 0 0 0 5px;
+}
+
+/*
+input, textarea{
+    margin-bottom: 0px;
+}
+*/
+
+textarea{
+    width: 250px;
+    height: 150px;
+}
+
+textarea.history{
+    width: 550px;
+    height: 250px;
+}
+
+.boxes{
+    width: 1em;
+}
+
+#submitbutton{
+    margin-left: 125px;
+    margin-top: 5px;
+    width: 90px;
+};
+
+br{
+    clear: left;
+}
+
+div#content div#successop {
+    color: #000000;
+    /* FIXME: green rgb code */
+    background-color: #00ff00;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+div#content div#errorop {
+    color: #000000;
+    background-color: #ff0000;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+div#content div#warnop {
+    color: #000000;
+    background-color: #FFFF00;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.book-card {
+    margin: 10px;
+    font-size: 16px;
+}
+
+.book-card a img{
+    text-decoration: none;
+    border: none;
+}
+
+.book-card #title {
+    font-size: 22px;
+    color: #ff0000;
+    font-weight: bold;
+}
+
+.book-card #button {
+    margin: 10px;
+}
+
+.book-card #button2 {
+    margin-left: 120px;
+}
+
+div#content .book-index {
+    font-size: 16px;
+    margin: 6px 6px 6px 6px;
+    color: #5f5e5e;
+    font-weight: bold;
+}
+
+div#content .notes {
+    font-size: 16px;
+    margin: 0px 2px 2px 10px;
+    color: #000000;
+    font-weight: normal;
+}
+
+div#content .pagesection {
+    font-size: 18px;
+    margin: 0px 0px 0px 10px;
+    color: #000000;
+    font-weight: bold;
+}
+
+div#content .page-head1 {
+    margin-left: 10px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+div#content .page-head2 {
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.notnull {
+    color: red;
+    font-width: bold;
+    clear: none;
+    display: inline;
+    text-align: left;
+}
+
+.form-row {
+    margin-bottom: 5px;
+    clear: both;
+}
+
+#resbox {
+    display: block;
+    width: 980px;
+    height: 50px;
+    margin: 10px 10px 0 10px;
+}
+
+div.ok-opcode {
+    background-color: #c8dcc8;
+    font-width: bold;
+    font-size: 18px;
+    padding: 10px 10px 10px 10px;
+}
+div.ko-opcode {
+    background-color: red;
+    font-width: bold;
+    font-size: 18px;
+    padding: 10px 10px 10px 10px;
+}
+
+table.list {
+    border-spacing: 0px;
+}
+
+table.list td {
+    padding: 5px;
+}
+
+table.list tr.head {
+    background-color: #f7b64a;
+    border-style: dotted;
+}
+
+table.list tr.item td {
+}
+
+table.list tr.par {
+    background-color: #c8dcc8;
+}
+
+table.comune td.denom {
+    width: 250px;
+}
+
+table.comune td.codreg {
+    width: 50px;
+}
+
+table.comune td.codregcamp {
+    width: 60px;
+}
+
+table.comune td.codprov {
+    width: 80px;
+}
+
+table.comune td.codcom {
+    width: 80px;
+}
+
+.generic-view {
+    margin-left: 25px;
+}
+
+.generic-entry-title {
+    font-weight: bold;
+    display: inline;
+}
+
+.generic-view-row {
+    
+}
+
+.generic-view .title {
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+.generic-view .genbutton {
+    display: block;
+    margin: 20px 0px 0px 0px;
+}
+
+.generic-form {
+    margin-left: 25px;
+}
+
+.generic-form .title {
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+.generic-form .genbutton {
+    display: block;
+    margin: 20px 0px 0px 0px;
+}
+
+.pag-links {
+    margin: 5px 0 5px 0;
+}
+
+.pag-links a {
+    color: #5e5f5e;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.4em;
+}
+
+.pag-links a:hover {
+    color: red;
+}
+
+.generic-form .reset-button {
+    display: inline;
+    margin: 0px 5px 0px 5px;
+}
+
+.generic-view a {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #555d55;
+}
+
+.generic-view a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #000000;
+}
+
+.generic-view .reset-button {
+    display: inline;
+    margin: 0px 5px 0px 5px;
+}
+
+#map-show {
+    width: 400px;
+    height: 400px;
+    background-color: black;
+}
+
+.ui-autocomplete-loading { 
+    background: white url('ui-lightness/images/ui-anim_basic_16x16.gif') right center no-repeat;
+}
+    .ui-autocomplete-loading { 
+    background: url(ui-lightness/images/indicator.gif) no-repeat right;
+ }
+
+.section-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+#ddesc-counter {
+    display: inline;
+    height:10px;
+}
+
+img.plus {
+    width: 20px;
+    height: 20px;
+}
+
+img.minus {
+    width: 20px;
+    height: 20px;
+}
+
+a img {
+    border: none;
+}

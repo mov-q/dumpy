@@ -1,0 +1,129 @@
+body {
+    font-family: Verdana;
+    font-size: 12px;
+    background-color: #0c0d0d;
+}
+
+#container {
+    margin: 0 auto;
+    width: 1220px;
+    background-color: #ffffff;
+    border: 1px black solid;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+#header {
+    display: block;
+    clear: both;
+    background-color: #ffffff;
+    height: 70px;
+    width: 1220px;
+    border-top-right-radius: 10px;
+    border-top-left-radius:10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright:10px;
+}
+
+#navheader {
+    display: block;
+    clear: both;
+    width: 1220px;
+    height: 20px;
+    background-color: #ffffff;
+    margin: 2px 0px 5px 0px;
+}
+
+#content {
+    display: block;
+    clear: both;
+    width: 1220px;
+    min-height: 600px;
+}
+
+#footer {
+    display: block;
+    clear: both;
+    width: 1220px;
+    height: 40px;
+    background-color: #ffffff;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius:10px;
+    -moz-border-radius-bottomleft: 10px;
+    -moz-border-radius-bottomright:10px;
+}
+
+#show-left {
+    width: 650px;
+    background-color: green;
+    float: left;
+    clear: left;
+}
+
+#show-right {
+    width: 550px;
+    background-color: #dff6ec;
+    float: right;
+    clear: right;
+    padding: 0 10px 0 10px;
+}
+
+#show-map {
+    width: 100%;
+    height: 380px;
+    background-color: #ffffff;
+    clear: both;
+} 
+
+#show-info {
+    clear: both;
+    border-right: 1px black dashed;
+    background-color: #dff6ec;
+    font-size: 12px;
+    padding: 10px;
+    display: none;
+}
+
+#card-title {
+    font-size: 22px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#card-subtitle {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
+#card-history {
+    display: none;
+    font-size: 14px;
+}
+
+#latitude {
+    display: inline;
+}
+
+#longitude {
+    display: inline;
+}
+
+.info-title {
+    display: block;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.info-entry {
+    display: block;
+}
+
+.info-item {
+    font-weight: bold;
+    display: inline;
+}
+
+
